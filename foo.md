@@ -5,8 +5,14 @@
 
 <div id='template'></div>
 <script>
+var url = window.location.pathname
+var id = /\/([^\/])\.html$/.match(url)[1];
+document.title = id;
+
 function reqListener () {
-  document.querySelector('#template').innerHTML = this.responseText;
+  var data = this.responseText;
+  var json = JSON.parse(data);
+  document.querySelector('#template').innerHTML = json[id];
 }
 
 var oReq = new XMLHttpRequest();
