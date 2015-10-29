@@ -12,7 +12,9 @@ document.title = id;
 function reqListener () {
   var data = this.responseText;
   var json = JSON.parse(data);
-  document.querySelector('#template').innerHTML = json[id];
+  document.querySelector('#template').innerHTML =
+    "template: " + json[id].template_EN + "</br>" +
+    "type: " + json[id].type;
 }
 
 var oReq = new XMLHttpRequest();
