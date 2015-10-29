@@ -3,5 +3,5 @@ title: testing js in md
 layout: page
 ---
 
-- [foo](description/foo)
-- [bar](description/bar)
+- [foo](description/foo.md)
+- [bar](description/bar.md)
