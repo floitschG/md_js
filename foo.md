@@ -6,7 +6,7 @@
 <div id='template'></div>
 <script>
 var url = window.location.pathname
-var id = /\/([^\/])\.html$/.exec(url)[1];
+var id = /\/([^\/]+)\.html$/.exec(url)[1];
 document.title = id;
 
 function reqListener () {
