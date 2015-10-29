@@ -1,3 +1,8 @@
+---
+title: testing js in md
+layout: page
+---
+
 # foo
 
 <div id='template'></div>
