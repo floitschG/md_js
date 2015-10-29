@@ -1,8 +1,3 @@
----
-title: testing js in md
-layout: page
----
-
 # foo
 
 ## Examples
