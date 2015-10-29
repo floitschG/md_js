@@ -1,5 +1,5 @@
 ---
-title: testing js in md
+title: foo
 layout: page
 ---
 
