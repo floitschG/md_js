@@ -1,0 +1,10 @@
+{
+  "foo": {
+    template_EN: "Index out of range: $i.",
+    "type": "Warning"
+  },
+  "bar": {
+    template_EN: "Missing constructor $name in class $c.",
+    "type": "Error"
+  }
+}
