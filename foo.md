@@ -1,6 +1,4 @@
 ---
 ---
 
-# foo
-general desc.
-
+foo
