@@ -1,4 +1,7 @@
-# foo
+---
+---
+
+# bar
 
 ## Examples
 ```
