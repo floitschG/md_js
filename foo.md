@@ -14,9 +14,9 @@ function reqListener () {
   var json = JSON.parse(data);
   document.querySelector('#template').innerHTML =
     "template: " + json[id].template_EN + "</br>" +
-    "type: " + json[id].type + "</br>" +
-    "<iframe src='https://github.com/floitschG/md_js/wiki/" + id + "' >" +
-    "your browser doesn't support iframes</iframe>";
+    "type: " + json[id].type + "</br>"
+//    + "<iframe src='https://github.com/floitschG/md_js/wiki/" + id + "' >" +
+//    "your browser doesn't support iframes</iframe>";
 }
 
 var oReq = new XMLHttpRequest();
